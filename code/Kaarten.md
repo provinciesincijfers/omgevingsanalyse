@@ -30,7 +30,7 @@ De kaart wordt geplaatst met volgende code:
 showInteractive(Kaart_1_1,750,kaart_hoogte)
 ```
 
-Dit zal ofwel een langgerekte kaart laten zien (met beeldverhouding 5:3) voor het Vlaams Gewest of voor Vlaams-Brabant, en een hogere kaart (met beeldverhouding 4:3) voor de andere provincies.
+Dit zal ofwel een langgerekte kaart laten zien (met beeldverhouding 5:3) voor het Vlaams Gewest of voor Vlaams-Brabant, of een hogere kaart (met beeldverhouding 4:3) voor de andere provincies.
 
 Voorbeeld 1: kaart van Oost-Vlaanderen
 
