@@ -2,7 +2,7 @@
 
 Volgens het [sjabloon afspraken](https://provincies.incijfers.be/databank/report/?id=sjabloon_grafiekstijl) gebruiken we voor kaarten en grafieken op volle breedte een breedte van **750** pixels.
 
-Geef je enkel een breedte op en geen hoogte, dan krijgt je figuur de standaardbeeldverhouding van **4:3**. Bij een breedte van 750 is de hoogte dus **562** (afgerond). Let op: de opgegeven afmetingen hebben altijd betrekking op de complete figuur, d.w.z. de eigenlijke kaart of grafiek + de legende + de bronvermelding + een witrand rondom.
+Geef je enkel een breedte op en geen hoogte, dan krijgt je kaart de standaardbeeldverhouding van **4:3**. Bij een breedte van 750 is de hoogte dus **562** (afgerond). Let op: de opgegeven afmetingen hebben altijd betrekking op de complete figuur, d.w.z. de eigenlijke kaart of grafiek + de legende + de bronvermelding + een witrand rondom.
 
 Deze standaardbeeldverhouding is oké voor kaartjes van alle provincies behalve voor Vlaams-Brabant, omdat die provincie eerder langgerekt van vorm is. Daarom kunnen we voor Vlaams-Brabant beter een kleinere hoogte opgeven, namelijk **450** (de beeldverhouding is dan **5:3**). Ook bij een kaart van het Vlaams Gewest gebruiken we beter een hoogte van 450.
 
