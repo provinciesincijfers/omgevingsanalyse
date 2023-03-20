@@ -6,7 +6,7 @@ Geef je enkel een breedte op en geen hoogte, dan krijgt je kaart de standaardbee
 
 Deze standaardbeeldverhouding is oké voor kaartjes van alle provincies behalve voor Vlaams-Brabant, omdat die provincie eerder langgerekt van vorm is. Daarom kunnen we voor Vlaams-Brabant beter een kleinere hoogte opgeven, namelijk **450** (de beeldverhouding is dan **5:3**). Ook bij een kaart van het Vlaams Gewest gebruiken we beter een hoogte van 450.
 
-Onderstaande code komt uit hoofdstuk 1 van de omgevingsanalyse en laat zien hoe je dit kunt programmeren:
+Onderstaande code komt uit hoofdstuk 1 van de omgevingsanalyse en laat zien hoe je dit kunt programmeren (plaats deze code bovenaan het rapport, bij de voorbereiding voor de (eerste) kaart:
 
 ```
 kaart_hoogte = 562 /* standaard kaarthoogte bij een breedte van 750 (beeldverhouding 4:3) */
@@ -24,7 +24,7 @@ end if
 
 N.B.: wanneer het rapport wordt opgevraagd voor een provincie, dan wordt een kaart van de provincie getoond; wordt het rapport opgevraagd voor een gemeente, dan wordt een kaart van het eerste vergelijkingsgebied getoond. Dat kan de provincie of het gewest zijn.
 
-De kaart wordt geplaatst met volgende code:
+De kaart wordt in de tekst op de gewenste plaats ingevoegd met volgende code:
 
 ```
 showInteractive(Kaart_1_1,750,kaart_hoogte)
