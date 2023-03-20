@@ -20,35 +20,6 @@ else
 	end if
 end if
 
-if Equal(Code(Level(Item(input_geo,0))), "provincie") then
-	Kaart_1_1 = Presentation {
-		Selection {
-			Ind.vp1111a_bevdicht;
-			MostRecentPeriod: 1;
-			input_geo;
-			SplitUp: geo.gemeente;
-			compare: input_geo;
-			Transformation: ZScoreParent;
-		};
-		View: Map;
-		ViewDimensions: [dim_geocompare, dim_variable];
-		LayoutClass: "kaartzscore";
-	}
-else
-	Kaart_1_1 = Presentation {
-		Selection {
-			Ind.vp1111a_bevdicht;
-			MostRecentPeriod: 1;
-			input_geo_splitup;
-			compare: Item(input_compare,0);
-			Transformation: ZScoreParent;
-		};
-		View: Map;
-		ViewDimensions: [dim_geocompare, dim_variable];
-		FavoriteGeoItem: favo_gebied;
-		LayoutClass: "kaartzscore";
-	}
-end if
 ```
 
 N.B.: wanneer het rapport wordt opgevraagd voor een provincie, dan wordt een kaart van de provincie getoond; wordt het rapport opgevraagd voor een gemeente, dan wordt een kaart van het eerste vergelijkingsgebied getoond. Dat kan de provincie of het gewest zijn.
@@ -67,4 +38,5 @@ Voorbeeld 1: kaart van Oost-Vlaanderen
 
 Voorbeeld 2: kaart van het Vlaams Gewest
 
-![kaart_vl](https://user-images.githubusercontent.com/101627698/226315352-995e857f-660c-416b-9230-ae25119a1906.png)
+![kaart_vl](https://user-images.githubusercontent.com/101627698/226316805-c76bfb51-1865-4d03-ae8d-79151a80b773.png)
+
