@@ -60,3 +60,11 @@ showInteractive(Kaart_1_1,750,kaart_hoogte)
 ```
 
 Dit zal ofwel een langgerekte kaart laten zien (met beeldverhouding 5:3) voor het Vlaams Gewest of voor Vlaams-Brabant, en een hogere kaart (met beeldverhouding 4:3) voor de andere provincies.
+
+Voorbeeld 1: kaart van Oost-Vlaanderen
+
+![kaart_ovl](https://user-images.githubusercontent.com/101627698/226315322-e6af8de3-0f80-4eaa-8b40-6ab22145f262.png)
+
+Voorbeeld 2: kaart van het Vlaams Gewest
+
+![kaart_vl](https://user-images.githubusercontent.com/101627698/226315352-995e857f-660c-416b-9230-ae25119a1906.png)
